@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53465dcf.css",
+    "main.js": "/static/js/main.99b93ed3.js",
+    "static/media/mentalhealthloginbg.jpg": "/static/media/mentalhealthloginbg.e456931b5b94ad83ca22.jpg",
+    "static/media/HappyBook.jpg": "/static/media/HappyBook.2306fd3bee836aa70521.jpg",
+    "static/media/FeelBook.jpg": "/static/media/FeelBook.f6947b2b85dda6bffb0c.jpg",
+    "static/media/HopeBook.jpg": "/static/media/HopeBook.27aefa4c0fd927d028a0.jpg",
+    "static/media/MindBook.jpg": "/static/media/MindBook.553c7019207814df8cdb.jpg",
+    "static/media/GrowthBook.jpg": "/static/media/GrowthBook.001d1b9da902a6970ccf.jpg",
+    "index.html": "/index.html",
+    "main.53465dcf.css.map": "/static/css/main.53465dcf.css.map",
+    "main.99b93ed3.js.map": "/static/js/main.99b93ed3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53465dcf.css",
+    "static/js/main.99b93ed3.js"
+  ]
+}
