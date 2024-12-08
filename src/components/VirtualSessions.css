@@ -1,0 +1,164 @@
+/* General Styling */
+.virtual-sessions-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #007bff;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link, .logout-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-link:hover, .logout-button:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.hero-section {
+  background: linear-gradient(to bottom, #007bff, #0056b3);
+  color: white;
+  padding: 50px 20px;
+}
+
+/* Booking Section */
+.booking-section {
+  padding: 20px;
+}
+
+.booking-section h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Calendar Customization */
+.react-calendar__navigation {
+  background: none; /* Transparent background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.react-calendar__navigation button {
+  background: none;
+  border: none;
+  color: black; /* Black navigation buttons */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.react-calendar__navigation button:hover {
+  text-decoration: underline;
+}
+
+.react-calendar__month-view__weekdays {
+  font-weight: bold;
+  color: black; /* Black weekday names */
+}
+
+.react-calendar__tile {
+  color: black; /* Change dates' color to black */
+}
+
+.react-calendar__tile--active {
+  background: #c8e6c9 !important; /* Highlight for selected dates */
+  color: black !important; /* Selected date color */
+}
+
+.react-calendar__tile--now {
+  background: #ffecb3; /* Light yellow for today's date */
+}
+
+.available-date {
+  background-color: #c8e6c9; /* Light green */
+  border-radius: 50%;
+}
+
+.selected-date {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #020202;
+}
+
+/* Therapy Videos Section */
+.therapy-videos-section {
+  padding: 20px;
+}
+
+.therapy-videos-section h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.video-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.video-card p {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+}

@@ -1,0 +1,87 @@
+.one-on-one-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar .nav-link {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+.counselors-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.counselor-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
+
+.book-now-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-now-button:hover {
+  background-color: #0056b3;
+}
+
+.payment-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.proceed-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.proceed-button:hover {
+  background-color: #218838;
+}
+
+.payment-status {
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+}

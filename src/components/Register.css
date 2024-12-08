@@ -1,0 +1,132 @@
+/* Registration Container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Take full screen height */
+    padding-top: 60px; /* Offset for fixed navbar */
+    background-image: url("./mentalhealthloginbg.jpg"); /* Corrected path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.95); /* Light background with transparency */
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out; /* Animation */
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background: #0056b3;
+  }
+  
+  .switch-container {
+    margin-top: 15px;
+  }
+  
+  .switch-button {
+    background: none;
+    color: #007bff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .switch-button:hover {
+    color: #0056b3;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Success dialog */
+.success-dialog {
+    position: fixed;
+    top: -50px; /* Start above the view */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745; /* Green background for success */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1000;
+    animation: slideDown 0.5s ease-out forwards, fadeOut 2.5s ease-out forwards;
+  }
+  
+  /* Slide-down animation */
+  @keyframes slideDown {
+    from {
+      top: -50px; /* Start above the viewport */
+      opacity: 0;
+    }
+    to {
+      top: 20px; /* End at a visible position */
+      opacity: 1;
+    }
+  }
+  
+  /* Fade-out animation */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
